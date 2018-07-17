@@ -7,29 +7,36 @@
 <meta name="Keywords" content="" /> 
 <meta name="Description" content="" /> 
 <style type="text/css">
-	*{margin:0; padding:0; list-style:none; text-decoration:none; color:#000000;}
-	h1{width:0; height:0; line-height:0; font-size:0;}
+	/*mediaquery*/
+	@media only screen and (min-width:320px) and (max-width:749px){
+		
+		*{margin:0; padding:0; list-style:none; text-decoration:none; color:#000000;}
+		h1{width:0; height:0; line-height:0; font-size:0;}
+		body{background:#87c0c1; font-size:2rem; }
 
-	body{background:#87c0c1; font-size:2rem; width:750px;}
+		#firstDiv{width:100%; margin:10px;}
+		#firstDiv>p{float:left;}
+		
+		p.thumbnail{width:70px; height:300px; position:relative;}
+		p.thumbnail>img{width:70px; display:inline; position:relative; top:0;} 
 
-	#firstDiv{width:100%; margin:10px;}
-	#firstDiv>p{float:left;}
+		p#saying1_2{width:30%; height:300px;}
+		p#saying1_2>#emoji1>b{vertical-align:top; padding-left:5px;}
+		p#saying1_2>#emoji1>img{width:100%;}
+		p#saying1_2>#emoji1>strong{font-size:1.5rem; color:#ffffff;}
 	
-	p.thumbnail{width:70px; height:300px; position:relative;}
-	p.thumbnail>img{width:70px; display:inline; position:relative; top:0;} 
-
-	p#saying1_2{width:30%; height:300px;}
-	p#saying1_2>#emoji1>b{vertical-align:top; padding-left:5px;}
-	p#saying1_2>#emoji1>img{width:100%;}
-	p#saying1_2>#emoji1>strong{font-size:1.5rem; color:#ffffff;}
-/**/
-	#secondDiv{margin:10px;}
-	#secondDiv>p{float:right;}
-	#stopfloat{clear:both; overflow:hidden;}
-	p#saying2_2{width:30%; height:300px;}
-	p#saying2_2>#emoji2>b{vertical-align:top; padding-right:5px; float:right;}
-	p#saying2_2>#emoji2>img{width:100%;}
-	p#saying2_2>#emoji2>strong{font-size:1.5rem; color:#ffffff;}
+		#secondDiv{margin:10px;}
+		#secondDiv>p{float:right;}
+		#stopfloat{clear:both; overflow:hidden;}
+		p#saying2_2{width:30%; height:300px;}
+		p#saying2_2>#emoji2>b{vertical-align:top; padding-right:5px; float:right;}
+		p#saying2_2>#emoji2>img{width:100%;}
+		p#saying2_2>#emoji2>strong{font-size:1.5rem; color:#ffffff;}
+		*display:inline || block || none (화면에서 사라지기-접근성에서 사라집니다.)*/
+	}
+	@media only screen and (min-width:750px) { 
+	}
+  
 
 </style>
 </head> 
