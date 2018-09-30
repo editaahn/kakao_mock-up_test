@@ -27,12 +27,14 @@
 	
 		.rightDiv{margin:10px;}
 		.rightDiv>p{float:right;}
-		#stopfloat{clear:both; overflow:hidden; height:30px;}
+		#stopfloat{clear:both; overflow:hidden; height:30px; position:relative;}
 		p.saying2_2{width:35%; height:300px;}
 		p.saying2_2>.emojiright>b{vertical-align:top; padding-right:5px; float:right;}
 		p.saying2_2>.emojiright>img{width:100%;}
 		p.saying2_2>.emojiright>strong{font-size:1.5rem; color:#ffffff;}
-	}  
+		
+		div>p>img {padding-left:10px;}
+	} 
 
 </style>
 </head> 
@@ -75,6 +77,7 @@
 			</span>
 		</p>
 	</div>
+	<div id='stopfloat'></div>
 	<div class='rightDiv'>
 		<p class='saying2_1' class='thumbnail'>
 			<img class='thumb2' src="img/thumb_cat_03.png" alt="" />
